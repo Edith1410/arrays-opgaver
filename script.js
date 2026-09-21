@@ -1,3 +1,4 @@
+// undervisere:
 // const undervisere = ["Anders", "Alan", "Stine", "Lau"];
 
 // // console.log(undervisere);
@@ -11,6 +12,7 @@
 //   section.innerHTML += `<p>${elm} er sød</p>`;
 // }
 
+// playliste:
 const tracks = ["dracula", "Thriller", "cardigan", "seven", "dashboard", "orbiter", "dan", "august", "peace", "asleep"];
 
 console.log(tracks);
