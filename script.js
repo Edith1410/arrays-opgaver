@@ -32,13 +32,14 @@ const Movie = {
   genre: "horror",
   length: "1t49m",
   director: "Curry Barker",
+  image: "Screenshot 2026-09-21 at 14.35.50.png",
 };
-
 const card = document.querySelector(".card");
 
 card.innerHTML = `
 <h2>${Movie.name}<h2/>
-<h3>${Movie.genre}<h3>
-<p>${Movie.length}<p>
-<p>${Movie.director}<p>
+<img src="${Movie.image}" alt="${Movie.name}">
+<h3>genre: ${Movie.genre}<h3>
+<p>lenght: ${Movie.length}<p>
+<p>director: ${Movie.director}<p>
 `;
